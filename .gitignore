@@ -1,0 +1,12 @@
+# Secrets — never commit signing keys or local databases
+keys/
+*.pem
+*.db
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.streamlit/secrets.toml
